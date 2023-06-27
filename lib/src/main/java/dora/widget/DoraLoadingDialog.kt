@@ -32,13 +32,24 @@ class DoraLoadingDialog(context: Context) : AppCompatDialog(context, R.style.Dor
         tvMessage!!.textSize = messageTextSize
     }
 
-    fun show(message: String? = "", build: DoraLoadingDialog.() -> Unit) {
+    /**
+     * 显示对话框。
+     */
+    fun show(message: String? = "", build: (DoraLoadingDialog.() -> Unit)?) : DoraLoadingDialog {
         if (message != null) {
             this.message = message
         }
-        build()
+        build?.invoke(this)
         create()
         show()
+        return this
+    }
+
+    /**
+     * 隐藏对话框。
+     */
+    fun dismissWithAnimation() {
+        dismissWithAnimation(false)
     }
 
     fun messageTextSize(textSize: Float) {
@@ -52,10 +63,6 @@ class DoraLoadingDialog(context: Context) : AppCompatDialog(context, R.style.Dor
 
     override fun cancel() {
         dismissWithAnimation(true)
-    }
-
-    fun dismissWithAnimation() {
-        dismissWithAnimation(false)
     }
 
     private fun dismissWithAnimation(fromCancel: Boolean) {
