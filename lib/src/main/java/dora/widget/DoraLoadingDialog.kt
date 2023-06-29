@@ -35,7 +35,7 @@ class DoraLoadingDialog(context: Context) : AppCompatDialog(context, R.style.Dor
     /**
      * 显示对话框。
      */
-    fun show(message: String? = "", build: (DoraLoadingDialog.() -> Unit)?) : DoraLoadingDialog {
+    fun show(message: String? = "", build: (DoraLoadingDialog.() -> Unit)? = null) : DoraLoadingDialog {
         if (message != null) {
             this.message = message
         }
