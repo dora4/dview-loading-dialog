@@ -16,3 +16,14 @@ dependencies {
     implementation 'com.github.dora4:dview-loading-dialog:1.2'
 }
 ```
+
+#### 使用控件
+
+```kotlin
+val dialog = DoraLoadingDialog(this).show("登录中...") {
+            messageTextSize(15f)
+        }
+        Handler().postDelayed({
+            dialog.dismissWithAnimation()
+        }, 1000)
+```
