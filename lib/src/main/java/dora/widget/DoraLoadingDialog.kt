@@ -32,6 +32,11 @@ class DoraLoadingDialog(context: Context) : AppCompatDialog(context, R.style.Dor
         tvMessage!!.textSize = messageTextSize
     }
 
+    fun setMessage(message: String) {
+        this.message = message
+        tvMessage?.text = message
+    }
+
     /**
      * 显示对话框。
      */

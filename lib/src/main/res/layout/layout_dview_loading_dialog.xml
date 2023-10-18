@@ -4,7 +4,7 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="wrap_content"
-    android:layout_height="86dp"
+    android:layout_height="100dp"
     android:layout_gravity="center"
     android:alpha="0.9"
     android:background="@drawable/shape_dview_loading_dialog_bg"
@@ -12,8 +12,8 @@
     android:orientation="vertical"
     tools:ignore="MissingDefaultResource">
     <androidx.appcompat.widget.LinearLayoutCompat
-        android:layout_width="86dp"
-        android:layout_height="86dp"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
         android:gravity="center"
         android:orientation="vertical">
         <dora.widget.DoraLoadingView

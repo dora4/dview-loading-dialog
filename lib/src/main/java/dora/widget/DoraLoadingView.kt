@@ -20,7 +20,7 @@ class DoraLoadingView @JvmOverloads constructor(context: Context, attrs: Attribu
     }
 
     private fun init() {
-        setImageResource(R.drawable.ic_dview_loading)
+        setImageResource(R.drawable.ic_dview_loading_default)
         frameTime = 1000 / 12
         updateViewRunnable = object : Runnable {
             override fun run() {
