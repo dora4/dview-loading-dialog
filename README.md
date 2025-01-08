@@ -35,3 +35,7 @@ val dialog = DoraLoadingDialog(this).show("登录中...") {
             dialog.dismissWithAnimation()
         }, 1000)
 ```
+
+#### 示例代码
+
+https://github.com/dora4/dora_samples
