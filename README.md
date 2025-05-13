@@ -1,6 +1,7 @@
 dview-loading-dialog
 ![Release](https://jitpack.io/v/dora4/dview-loading-dialog.svg)
 --------------------------------
+![DORA视图 时涡回转者](https://github.com/user-attachments/assets/d3478212-e3d8-49d9-9c97-4876de6098f7)
 
 ##### 卡名：Dora视图 Loading Dialog
 ###### 卡片类型：效果怪兽
