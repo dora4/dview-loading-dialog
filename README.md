@@ -1,15 +1,9 @@
 dview-loading-dialog
 ![Release](https://jitpack.io/v/dora4/dview-loading-dialog.svg)
 --------------------------------
-![DORA视图 时涡回转者](https://github.com/user-attachments/assets/d3478212-e3d8-49d9-9c97-4876de6098f7)
 
-##### 卡名：Dora视图 Loading Dialog
-###### 卡片类型：效果怪兽
-###### 属性：光
-###### 星级：2
-###### 种族：天使族
-###### 攻击力/防御力：100/1000
-###### 效果：此卡不会因为对方卡的效果而破坏，并可使其无效化。此卡攻击里侧守备表示的怪兽时，若攻击力高于其守备力，则给予对方此卡原攻击力的伤害，并抽一张卡。此卡名字可以当作任何名字带有「Dora视图」的怪兽使用。
+#### 卡片
+![DORA视图 时涡回转者](https://github.com/user-attachments/assets/d3478212-e3d8-49d9-9c97-4876de6098f7)
 
 #### Gradle依赖配置
 
