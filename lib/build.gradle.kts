@@ -6,11 +6,10 @@ plugins {
 
 android {
     namespace = "dora.widget.loadingdialog"
-    compileSdk = 32
+    compileSdk = 36
 
     defaultConfig {
         minSdk = 21
-        targetSdk = 32
     }
     buildTypes {
         release {
@@ -19,14 +18,13 @@ android {
         }
     }
     compileOptions {
-        sourceCompatibility = JavaVersion.VERSION_1_8
-        targetCompatibility = JavaVersion.VERSION_1_8
+        sourceCompatibility = JavaVersion.VERSION_17
+        targetCompatibility = JavaVersion.VERSION_17
     }
 }
 
 dependencies {
-    implementation("androidx.core:core-ktx:1.12.0")
-    implementation("androidx.appcompat:appcompat:1.6.1")
+    implementation("androidx.appcompat:appcompat:1.7.1")
 }
 
 afterEvaluate {
